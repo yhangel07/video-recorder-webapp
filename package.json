@@ -21,6 +21,7 @@
     "@loomhq/loom-embed": "^1.5.0",
     "@loomhq/loom-sdk": "^2.31.0",
     "@loomhq/record-sdk": "^2.35.21",
+    "express": "^4.18.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
