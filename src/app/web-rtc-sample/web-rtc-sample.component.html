@@ -1,0 +1,10 @@
+<button id="btnStart" #record (click)="recordVideo()">Record</button>
+<button id="btnStop" #stopRecord (click)="stopRecording()">Stop Recording</button>
+
+<h5>Record Here</h5>
+<video #myVideo id="myVideo" controls></video>
+
+
+<h5>Your Recorded Video</h5>
+
+<video #preview controls [src]="myRecording"></video>

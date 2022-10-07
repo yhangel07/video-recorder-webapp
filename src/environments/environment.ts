@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  loom_api: "15ac7f9c-8aa5-49c2-b7f9-1bfaf5c5ee48"
 };
 
 /*
